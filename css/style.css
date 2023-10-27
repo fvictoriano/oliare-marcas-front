@@ -1,0 +1,37 @@
+body {
+    background-color: #1e1f34;
+    color: #1dfda7;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.firstrow {
+    height: 85vh;
+}
+
+.botao-wpp {
+    color: #1e1f34;
+    background-color: #1dfda7;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.botao-wpp:hover {
+    text-decoration: none;
+    background-color: #1e1f34;
+    color: #1dfda7;
+    transition: 1s all ease-in-out;
+}
+
+.logo {
+    position: fixed;
+    top: -30;
+    width: 100%;
+    z-index: -100;
+}
